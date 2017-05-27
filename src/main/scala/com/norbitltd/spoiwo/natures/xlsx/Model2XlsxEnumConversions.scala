@@ -23,7 +23,7 @@ object Model2XlsxEnumConversions {
       case Hair => HAIR
       case Medium => MEDIUM
       case MediumDashDot => MEDIUM_DASH_DOT
-      case MediumDashDotDot => MEDIUM_DASH_DOT_DOTC
+      case MediumDashDotDot => MEDIUM_DASH_DOT_DOT
       case MediumDashed => MEDIUM_DASHED
       case CellBorderStyle.None => NONE
       case SlantedDashDot => SLANTED_DASH_DOT

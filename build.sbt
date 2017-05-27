@@ -36,8 +36,8 @@ lazy val commonSettings = Seq(
   pomExtra := pomDetails,
   libraryDependencies ++= Seq(
     "org.scala-lang.modules" %% "scala-xml"         % "1.0.6",
-    "org.apache.poi"         %  "poi"               % "3.14",
-    "org.apache.poi"         %  "poi-ooxml"         % "3.14",
+    "org.apache.poi"         %  "poi"               % "3.16",
+    "org.apache.poi"         %  "poi-ooxml"         % "3.16",
     "joda-time"              %  "joda-time"         % "2.9",
     "org.joda"               %  "joda-convert"      % "1.8.1",
     "org.scalatest"          %% "scalatest"         % "3.0.1"   % "test"

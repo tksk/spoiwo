@@ -44,7 +44,7 @@ class Model2XlsxConversionsForCellBordersSpec extends FlatSpec{
     val model = CellBorders(topStyle = CellBorderStyle.MediumDashDotDot, topColor = Color.Olive)
     val xlsx = convert(model)
 
-    assert(xlsx.getBorderTopEnum == usermodel.BorderStyle.MEDIUM_DASH_DOT_DOTC)
+    assert(xlsx.getBorderTopEnum == usermodel.BorderStyle.MEDIUM_DASH_DOT_DOT)
     assert(xlsx.getBorderColor(XSSFCellBorder.BorderSide.TOP).getRGB.toList ==
       Array[Byte](128.toByte, 128.toByte, 0.toByte).toList)
   }
